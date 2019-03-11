@@ -1,6 +1,6 @@
 #Not Hesaplama
 a = input("Vize Girin: ")
-vize = int(a)
+vize = int(a)                   #a değikenin ekrandan aldığı değer başlangıçta string. Onu inte çevirmek için int(b) kullanıyoruz.
 b = input ("Final Girin: ")
 final = int(b)
 
