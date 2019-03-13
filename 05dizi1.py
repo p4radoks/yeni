@@ -32,3 +32,14 @@ del dizi4[3]    #diziden eleman silme
 print(dizi4)
 
 print(list(dizi3[4])) #dizi3'ün 4. dizisindeki 'kerem' elementenini karakterlerinin gösterimi
+
+list1=list("benbarış")
+print(list(list1))
+list1[3:]="fero"            #list1deki 3. karakterden başlayarak yeni verdiğimiz değerle değiştirdi
+print(list(list1))
+
+dizi5=[1,2,3]
+dizi5[1:1]=[5,5,5]          #dizi5'teki 1 sütununa yeni bir şey eklemek istediğimizde (Sadece 1 sütunundan sonrasına eklemek istediğimiz için 1'den 1'e şeklinde yaptık.
+print(dizi5)
+dizi5[1:5]=[]               #1'den başlayarak 5'e kadar sildi
+print(dizi5)
