@@ -31,3 +31,6 @@ if ort>60 or ort<50:        #Ortalama 60'dan büyükse ya da 50'den küçükse d
     print("Or")
 else:
     print("Bu aralıklarda değil")
+
+#NOT : Harf notu hesaplamayı üni sitesinden aldım. O nedenle 69.75 ya da 79,63 not ortalamasına herhangi bir değer döndürmüyor.
+
