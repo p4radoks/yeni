@@ -31,15 +31,21 @@ profil2("ahmet","mehmet",15,25,35,45, elma=2,ceviz=3)   #1. değeri ad'a, 2. de�
 profil2("asd","asda",155,6165,65165, karpuz=2)          #Bu şekilde birden fazla profil oluşturabiliriz. Fonksiyonu istediğimiz yerde kullanabiliriz.
 
 
-def aa(**asd):
+def aa(**asd):          #Dışardan bir sözlüğü fonksiyona atama
     print(asd)
+a={"a":1,"b":2}
+b={"a":2,"b":3}
+aa(**a)
+aa(**b)
+
+def mat(a,b,c):         #Dışardan bir Tuples'ı fonksiyona atama
+    print(a+b+c)
+dizi1=(1,2,3)
+mat(*dizi1)
+dizi2=(2,3,4)
+mat(*dizi2)
 
 
 
 
-#def mat(a,b,c):
- #   return a+b+c
-#sayi=(1,2,8)
-#sayi2=(2,3,5,8,5,4)                BU BÖLÜMÜ SOR!
-#mat = mat(*sayi)
-#mat = mat(*sayi2)
+
