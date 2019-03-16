@@ -20,3 +20,6 @@ def ismin_ne():
 print("Merhaba {}. Nasılsın?".format(ismin_ne()))
 
 
+
+
+
