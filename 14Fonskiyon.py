@@ -17,7 +17,7 @@ print("x'e göre sonuç: " + str(fonskiyon()))
 def ismin_ne():
     isim = input("ismin ne? ")
     return isim
-print("Merhaba {}. Nasılsın?".format(ismin_ne()))
+print("Merhaba. Nasılsın?", ismin_ne())
 
 
 

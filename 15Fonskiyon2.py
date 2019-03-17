@@ -1,12 +1,26 @@
 def isim(ad,soyad):                 #Default bir değer oluşturarak istediğimiz değerleri girebiliriz.
-    print("%s %s" % (ad,soyad))
+    print("%s %s" % (ad,soyad))     #FONKSİYONU BU ŞEKİLDE KULLANDIĞIMIZ TAKTİRDE ÖNCE BOŞ DEĞER DÖNDÜRÜR. DAHA SONRA PRİNTLERE GEÇER VE ONLARI TEKER TEKER FONKSİYON İÇİNDE YERLEŞTİREREK DÖNDÜRÜR.
 print(isim("Ahmet","Nalçakan"))
+print(isim("Mehmet","Güven"))
 
+"""
+
+def isim(ad,soyad):                 #Yukarıda yazdığım fonksiyonun kullanılması gereken hali budur. Print içerisinde yazdığım isimleri return içerisinde döndürerek yazdırır.
+    return(%s %s %(ad,soyad)
+print (isim("Mehmet","Nalçakan"))       DÜZELTME!!!
+print(isim("Mehmet","Güven"))
+
+def isim(ad,soyad):                 #Yukarıda yazdığım fonksiyonun kullanılması gereken diğer şekli de budur. Farkı ise dışarıda fonksiyonun değerlerini belirleyip fonksiyon içerisine gönderir ve ekrana yazdırır.
+    print(%s %s %(ad,soyad))
+isim("Mehmet","Nalçakan")
+isim("Mehmet","Güven")
+
+"""
 
 
 
 def isim(ad="Ahmet", soyad="Nalçakan"):
-    print("%s %s" % (ad, soyad))
+    return "%s %s" % (ad, soyad)
 print(isim())                       #Fonskiyonu direk çağırdğımızda default değerleri getirir.
 print(isim("Mehmet"))               #Herhangi bir değer değiştirdiğimzde ilk değeri değiştirir.
 print(isim(soyad="Şimşek"))         #Başka bir değeri değiştirmek için anahtar kelimeyi yazmamız gerekir.
