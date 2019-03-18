@@ -19,3 +19,5 @@ print(dir(ImportIcınFonksiyon))                 #dir modül içerisinde neler o
 print(help(ImportIcınFonksiyon))                #help kullanabileceğin fonksiyonların kullanımını gösterir. Detaylı gösterimdir.
 print(help(math))
 print(math.__doc__)                             #math ile ne yapabileceğimi yazar. Özet niteliğinde.
+
+
